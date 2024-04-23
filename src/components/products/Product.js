@@ -24,6 +24,7 @@ const Product = () => {
 
     return (
         <div>
+            <h1>Danh sách sản phẩm</h1>
             {arr.map((item) => (
                 <ProductDetail tensp={item.name} price1={30000} xuatxu={item.origin} />
             ))}
